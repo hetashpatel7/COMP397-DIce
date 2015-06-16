@@ -6,6 +6,7 @@
 /// <reference path="typings/preloadjs/preloadjs.d.ts" />
 
 
+//github link: --https://github.com/hetashpatel7/COMP397-DIce
 
 // Game Framework Variables
 var canvas = document.getElementById("canvas");
@@ -88,7 +89,7 @@ function gameLoop() {
 }
 
 // Callback function that allows me to respond to button click events
-function pinkButtonClicked(event: createjs.MouseEvent) {//generate random numbers
+function pinkButtonClicked(event: createjs.MouseEvent) {//generate random numbers++++++++++++++++
      random_no1 = Math.floor((Math.random() * 6) + 1);
      random_no2 = Math.floor((Math.random() * 6) + 1);
     updateDice(random_no1,random_no2);
